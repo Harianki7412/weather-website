@@ -4,37 +4,41 @@
 1. **Clone the Repository:**
 
     ```bash
-    git clone <repository_url>
+    git clone (https://github.com/Harianki7412/weather-website)
     cd weather-app
     ```
 
-2. **Install Dependencies:**
+3. **Install Dependencies:**
 
     ```bash
     npm install
     ```
 
-3. **Install Tailwind CSS and PostCSS:**
+4. **Install Tailwind CSS and PostCSS:**
 
     ```bash
     npm install -D tailwindcss postcss autoprefixer
     npx tailwindcss init -p
     ```
 
-4. **Configure Tailwind CSS:**
+5. **Configure Tailwind CSS:**
 
     - Update `tailwind.config.js` to include the content paths.
     - Add Tailwind directives to `style.css`.
     - Add build script to `package.json`, and run `npm run build:css`.
 
-5. **Obtain OpenWeatherMap API Key:**
+6. **Obtain OpenWeatherMap API Key:**
 
     - Sign up for an API key at [OpenWeatherMap](https://openweathermap.org/api).
     - Replace `'API_KEY'` in `script.js` with your API key.
 
-6. **Run the Application:**
+7. **Run the Application:**
 
     - Open `index.html` in your web browser.
+
+8. **GITHUB LINK**
+   
+    - https://github.com/Harianki7412/weather-website.git
 
 ## Usage
 
